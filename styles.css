@@ -1,0 +1,182 @@
+* {
+    display: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+
+
+}
+
+
+.logo {
+    width: 10%;
+
+    padding-left: 60px;
+
+}
+
+body {
+
+    padding-top: 10px;
+    padding-right: px;
+    padding-left: px;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: auto;
+}
+
+.caixa-texto {
+    width: 100%;
+    padding-left: 50px;
+}
+
+h1 {
+    color: #333;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+button {
+    background: #017143;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #015834
+}
+
+.caixa-imagem {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+}
+
+span {
+    color: #017143;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+.starbucks {
+    margin-top: 90px;
+    margin-block-end: -20px;
+    width: 250px;
+    margin-inline: 50px;
+    align-items: left;
+
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+.botao-menu {
+
+    width: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+
+.botao-menu:hover {
+    transform: translateY(-12px);
+
+}
+
+.circle {
+
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(350px at right 400px);
+    padding-bottom: 00;
+    z-index: -1;
+
+}
+
+@media (max-width:800px) {
+    .caixa-imagem {
+        width: 0vw;
+        height: 250px;
+        margin-inline: 75px;
+        margin-bottom: 260px;
+    }
+
+    .circle {
+        padding-left: none;
+
+        padding-bottom: none;
+        height: 700px;
+        clip-path: circle(190px at right 470px);
+    }
+
+    .botao-menu {
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+    }
+
+
+
+    .caixa-texto {
+        width: 450px;
+        padding-left: none;
+        padding-right: none;
+        padding-top: none;
+        padding-bottom: none;
+
+    }
+
+    .titulo {
+        height: 500px;
+    }
+
+    .h1 {
+        height: 500px;
+        padding-top: 0px;
+    }
+
+    .info {
+        padding-top: 120px;
+
+
+    }
+
+    .starbucks {
+        height: 230px;
+        padding-left: 60px;
+        object-position: fixed;
+    }
+
+
+}
